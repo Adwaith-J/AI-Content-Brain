@@ -27,6 +27,9 @@ By combining **retrieval from a knowledge base** with **AI generation**, RAG imp
 | RAG Framework | LangChain & LangChain-HuggingFace |
 | Notebook | VS Code Jupyter / Colab |
 
+##Output
+
+<img width="1679" height="313" alt="image" src="https://github.com/user-attachments/assets/711856d8-32d6-4d5c-80af-00b3b17df83c" />
 
 
 ## Installation & Setup
@@ -35,3 +38,4 @@ By combining **retrieval from a knowledge base** with **AI generation**, RAG imp
 ```bash
 git clone https://github.com/your-username/ai-content-brain.git
 cd ai-content-brain
+
