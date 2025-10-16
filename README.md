@@ -1,2 +1,37 @@
-# AI-Content-Brain
-AI Content Brain is a free, offline AI tool that generates ideas and answers using Retrieval-Augmented Generation (RAG). It combines local HuggingFace embeddings and a small HuggingFace LLM to provide accurate, context-aware responses from your custom knowledge base.
+# AI Content Brain — Free RAG-based Idea Generator
+
+**Description:**  
+AI Content Brain is a Retrieval-Augmented Generation (RAG) system that helps you generate creative ideas and answer queries based on a custom knowledge base. This project uses **HuggingFace embeddings** and **HuggingFace LLMs**, making it **fully free** and runnable offline without any OpenAI API key.
+
+
+## Problem Statement
+
+Traditional AI generation often “hallucinates” information or gives generic responses.  
+By combining **retrieval from a knowledge base** with **AI generation**, RAG improves accuracy, context, and relevance.
+
+**Goal:** Build a free, offline-capable AI tool that can:
+- Generate innovative ideas
+- Provide answers grounded in documents
+- Work without any paid API
+
+
+
+## Tech Stack
+
+| Component | Tool / Library |
+|-----------|----------------|
+| Programming Language | Python 3.x |
+| AI Generation | HuggingFace Transformers (`flan-t5-small`) |
+| Embeddings | HuggingFace Sentence Transformers (`all-MiniLM-L6-v2`) |
+| Vector Database | FAISS |
+| RAG Framework | LangChain & LangChain-HuggingFace |
+| Notebook | VS Code Jupyter / Colab |
+
+
+
+## Installation & Setup
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/your-username/ai-content-brain.git
+cd ai-content-brain
